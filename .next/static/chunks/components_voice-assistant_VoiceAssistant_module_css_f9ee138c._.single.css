@@ -1,0 +1,48 @@
+/* [project]/components/voice-assistant/VoiceAssistant.module.css [app-client] (css) */
+.VoiceAssistant-module__CfL-Ra__assistant {
+  z-index: 1000;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 4px 8px #0003;
+}
+
+.VoiceAssistant-module__CfL-Ra__button {
+  color: #fff;
+  cursor: pointer;
+  background: #0070f3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background .3s;
+}
+
+.VoiceAssistant-module__CfL-Ra__button:hover {
+  background: #005bb5;
+}
+
+.VoiceAssistant-module__CfL-Ra__listening {
+  background: #f44;
+}
+
+.VoiceAssistant-module__CfL-Ra__listening:hover {
+  background: #c00;
+}
+
+.VoiceAssistant-module__CfL-Ra__feedback {
+  color: #333;
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+.VoiceAssistant-module__CfL-Ra__transcript {
+  color: #666;
+  margin: 5px 0 0;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=components_voice-assistant_VoiceAssistant_module_css_f9ee138c._.single.css.map*/
