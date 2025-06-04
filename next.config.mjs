@@ -1,5 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+   async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'http://35.202.100.254/oe/api/:path*',
+      },
+    ];
+  },
   webpack: (config, { isServer }) => {
     if (isServer) {
       // Stub out the canvas module for server-side builds
